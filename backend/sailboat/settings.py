@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'sailboat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'boatapp',
+        'NAME': 
         'USER': 'postgres',
-        'PASSWORD': 'Password@#2020',
+        'PASSWORD': ,
         'HOST': 'localhost'
     }
 }
@@ -94,8 +94,8 @@ DATABASES = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'phillipmbates85@gmail.com'
-EMAIL_HOST_PASSWORD = 'dxwjfzqekqjgilnb'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 # Password validation
